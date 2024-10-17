@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+
+public class ArrayAccess {
+    public static void main(String[] args) {
+        ArrayList<String> names = new ArrayList<>();
+
+        names.add("Doreen");
+        names.add("Dorah");
+        names.add("Deborah");
+        System.out.println("Names after adding elements: " + names);
+
+        String firstName = names.get(0);
+        System.out.println("First name: " + firstName);
+
+        names.remove("Doreen");
+        System.out.println("names after removing Doreen: " + names);
+
+    }
+}
